@@ -21,7 +21,7 @@ fi
 
 # 1. Constrói o site (gera a pasta docs)
 echo -e "${GREEN}--> Gerando HTML na pasta docs...${NC}"
-hugo --minify
+hugo --minify -d docs
 
 # 2. Git
 echo -e "${GREEN}--> Enviando para o GitHub...${NC}"
