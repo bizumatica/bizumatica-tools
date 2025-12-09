@@ -1,4 +1,11 @@
-# Criar backup completo com timestamp
+#!/bin/bash
+
+# Author: Julio Prata
+# Created: 09 dez 2025
+# Last Modified: 09 dez 2025
+# Version: 1.0
+# Description: Cria backup completo com timestamp
+
 cd ~/Bizumatica
 DATA_BACKUP=$(date +%Y%m%d_%H%M%S)
 mkdir -p ~/backup-bizumatica/$DATA_BACKUP
