@@ -17,7 +17,7 @@ PROJECT_NAME=$(basename "$PWD")
 
 echo -e "${CYAN}--- Iniciando Deploy para: $PROJECT_NAME ---${NC}"
 
-msg="Update `date`"
+msg="Update $(date)"
 if [ $# -eq 1 ]
   then msg="$1"
 fi
