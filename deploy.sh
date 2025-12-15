@@ -22,7 +22,7 @@ if [ $# -eq 1 ]
   then msg="$1"
 fi
 
-# VERIFICAÇÃO INTELIGENTE
+# VERIFICAÇÃO
 # Procura por hugo.toml ou config.toml para saber se é um site Hugo
 if [ -f "hugo.toml" ] || [ -f "config.toml" ]; then
     echo -e "${GREEN}--> Site Hugo detectado. Iniciando build...${NC}"
